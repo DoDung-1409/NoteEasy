@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoteEasy - Ghi chú cá nhân</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📝 NoteEasy</h1>
+      <p>Ghi lại mọi ý tưởng của bạn</p>
+    </header>
+
+    <section class="note-form">
+      <input id="noteTitle" type="text" placeholder="Tiêu đề ghi chú">
+      <textarea id="noteContent" placeholder="Nội dung ghi chú..."></textarea>
+      <button id="saveBtn">Lưu ghi chú</button>
+    </section>
+
+    <input id="searchInput" class="search"
+      type="text" placeholder="Tìm kiếm ghi chú...">
+
+    <h2>Ghi chú của tôi</h2>
+    <div id="notesList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
